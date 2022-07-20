@@ -1,0 +1,309 @@
+header {
+    display: flex;
+}
+.logo > img {
+    margin-top: 5px;
+    width: 195px;
+}
+.banner > img {
+    justify-content: center;
+    margin-top: 5px;
+    width: 948px;
+}
+#cont_93d018441dd641d5fb3176efe16278f2 {
+    margin-top: 5px;
+    height: 200px;
+}
+#options_1 {
+    padding-left: 80px;
+    padding-bottom: 15px;
+}
+#options_2 {
+    padding-left: 370px;
+    padding-bottom: 15px;
+}
+#select_place {
+  width: 200px;
+}
+#select_bairro {
+    width: 200px;
+}
+#menus {
+    display: flex;
+}
+#url > li {
+    width: 190px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+#cotacao {
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+#cotacao > p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bold;
+}
+a {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+#bar_1 > h2 > a {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+#bar_2 > h2 > a {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.central {
+    text-align: center;
+}
+.central > img {
+    width: 950px;
+    height: 350px;
+}
+.caixa_footer {
+    width: 100%;
+}
+.banner_geral > img {
+    justify-content: center;
+    margin-top: 5px;
+    width: 980px;
+    height: 210px;
+}
+#evento_1 > img {
+    width: 210px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#alimenta_1 > img {
+    width: 210px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#evento_2 > img {
+    width: 210px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+#alimenta_2 > img {
+    width: 210px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+#evento_1 {
+    display: flex;
+}
+#alimenta_1 {
+    display: flex;
+}
+#evento_2 {
+    display: flex;
+}
+#alimenta_2 {
+    display: flex;
+}
+h1 {
+    text-align: center;
+    color: darkolivegreen;
+}
+#bar_1 {
+    margin-right: 60px;
+}
+#bar_2 {
+    margin-right: 60px;
+}
+#media_1 > p {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+#media_2 > p {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+#home > a > img {
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+@media (max-width: 414px) {
+    header {
+        display: inline;
+    }
+    .logo > img {
+        display: none;
+    }
+    .banner > img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        justify-content: center;
+        width: 407px;
+    }
+    #cont_93d018441dd641d5fb3176efe16278f2 {
+        position: absolute;
+        top: 105px;
+        left: 118px;
+        height: 170px;
+    }
+    #select_place {
+        position: absolute;
+        left: 0;
+        top: 311px;
+    }
+    #select_bairro {
+        position: absolute;
+        left: 206px;
+        top: 311px;
+    }
+    #options_1 {
+        padding-left: 0;
+    }
+    #options_2 {
+        padding-left: 1px;
+    }
+    #select_place {
+        width: 202px;
+    }
+    #select_bairro {
+        width: 202px;
+    }
+    .central > img {
+        position: absolute;
+        left: 0;
+        top: 333px;
+        width: 407px;
+        height: 220px;
+    }
+    .caixa_footer > img {
+        position: absolute;
+        left: 0;
+        top: 662px;
+        width: 407px;
+        height: 40px;
+    }
+    #menus {
+        display: inline;
+    }
+    #url > #sobre {
+        position: absolute;
+        left: 0;
+        top: 550px;
+        width: 130px;
+        height: 25px;
+        background-color: lightgray;
+        border-radius: 0px;
+        text-align: center;
+    }
+    #url > #contato {
+        position: absolute;
+        left: 130px;
+        top: 550px;
+        width: 130px;
+        height: 25px;
+        background-color: lightgray;
+        border-radius: 0px;
+        text-align: center;
+    }
+    #url > #agencias {
+        position: absolute;
+        left: 260px;
+        top: 550px;
+        width: 130px;
+        height: 25px;
+        background-color: lightgray;
+        border-radius: 0px;
+        text-align: center;
+    }
+    a {
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        font-size: medium;
+        font-weight: 400;
+    }
+    #cotacao > #comercial {
+        position: absolute;
+        left: 0;
+        top: 580px;
+        width: 198px;
+        height: 25px;
+        text-align: center;
+    }
+    #cotacao > #euro {
+        position: absolute;
+        left: 198px;
+        top: 580px;
+        width: 198px;
+        height: 25px;
+        text-align: center;
+    }
+    #cotacao > #turismo {
+        position: absolute;
+        left: 0;
+        top: 620px;
+        width: 198px;
+        height: 25px;
+        text-align: center;
+    }
+    #cotacao > #peso {
+        position: absolute;
+        left: 198px;
+        top: 620px;
+        width: 198px;
+        height: 25px;
+        text-align: center;
+    }
+    .banner_geral > img {
+        justify-content: center;
+        width: 407px;
+        height: 111px;
+    }
+    #show > h2 {
+        font-size: 1.3em;
+    }
+    #end {
+        display: none;
+    }
+    #evento_1 > img {
+        width: 210px;
+        height: 128px;
+        margin-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    #alimenta_1 > img {
+        width: 210px;
+        height: 128px;
+        margin-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    #media_1 {
+        position: absolute;
+        left: 20px;
+        top: 325px;
+    }
+    #alimenta_2 {
+        position: absolute;
+        /*left: 15px;*/
+        top: 410px;
+    }
+    #media_2 {
+        position: absolute;
+        left: 20px;
+        top: 135px;
+    }
+}
